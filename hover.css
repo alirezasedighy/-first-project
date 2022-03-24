@@ -1,0 +1,17 @@
+.nav_item{
+    margin-left: 7px;
+    margin-right: 7px;
+    padding: 5px;
+    transition: all .4s ease 30ms;
+}
+.nav_item:hover{
+    color: rgb(175, 175, 175);
+    background-color: rgb(39, 39, 39);
+    border-radius: 6px;
+}
+.nav_link a{
+    transition: all .4s ease 30ms;
+}
+.nav_link a:hover{
+    color: rgb(175, 175, 175);
+}

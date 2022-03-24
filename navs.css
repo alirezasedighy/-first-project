@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    overflow-x: hidden;
+}
+/*navbar one*/
+.nav_brand h3{
+    color: aliceblue;
+    margin-right: 120px;
+}
+.nav{
+    width: 100vw;
+    height: 25px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+.nav_link li,a{
+    color: aliceblue;
+    text-decoration: none;  
+    padding-left: 5px;
+}
+.nav_link{
+    list-style: none;
+    margin-left: 40px;
+    color: aliceblue;
+    text-decoration: none;  
+}
+.nav_link li{
+    display: inline-block;
+}
+/* SECOND NAVBAR*/
+.nav_2{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(235, 235, 235);
+    overflow: hidden;
+}
+.main_nav{
+    margin-right: 110px;
+    font-size: 23px;
+    position: absolute;
+    top: 22px;
+}
+.nav_item{
+    color: black;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 17px;
+}
+.nav_bar_item{
+    position: absolute;
+    left: 38%;
+    top: 35px;
+    display: flex;
+    list-style: none; 
+}
+/*Social media icons*/
+.Social_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.instagram_icon{
+    width: 20px;
+    height: 20px;
+    background-image: url(./ICONS/Instagram\ -\ Original.png);
+    background-size: cover;
+    position: absolute;
+    left: 90px;
+}
+.twitter_icon{
+    width: 20px;
+    height: 20px;
+    background-image: url(./ICONS/Twitter\ -\ Original.png);
+    background-size: contain;
+    position: absolute;
+    left: 130px;
+}
+.facebook_icon{
+    width: 20px;
+    height: 20px;
+    background-image: url(./ICONS/Facebook\ -\ Original.png);
+    background-size: contain;
+    position: absolute;
+    left: 170px;
+}
+.linkedin_icon{
+    width: 20px;
+    height: 20px;
+    background-image: url(./ICONS/LinkedIn\ -\ Original.png);
+    background-size: cover;
+    position: absolute;
+    left: 210px;
+}
+/* slider show*/
+#slider{
+    display: flex;
+    justify-content: center;
+}
+.slider_1{
+    width: 90vw;
+    height: 360px ;
+    margin: 10px;
+    background-image: url(./IMGS/slider1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    position: absolute;
+    left: 4.1vw;
+    animation: slider1 35s infinite;
+    border-radius: 5px;
+}
+.slider_text_1{
+    position: absolute;
+    top: 150px;
+    right: 120px;
+    font-size: 30px;
+    font-weight: bolder;
+    z-index: 1;
+    animation: slider1 35s infinite;
+    cursor: pointer;
+}
+.slider_text_1 p{
+    color: rgb(80, 80, 80);
+    font-size: 17px;
+    padding-top: 7px;
+    cursor: pointer;
+}
+.slider_2{
+    width: 90vw;
+    height: 360px ;
+    margin: 10px;
+    background-image: url(./IMGS/slider2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    position: absolute;
+    left: 100vw;
+    opacity: 1;
+    animation: slider2 35s infinite;
+    border-radius: 5px;
+}
+.slider_text_2{
+    position: absolute;
+    top: 70px;
+    right: 80px;
+    font-size: 30px;
+    font-weight: bolder;
+    z-index: 1;
+    color: aliceblue;
+    cursor: pointer;
+}
