@@ -284,6 +284,8 @@
     text-decoration:none;
 }
 .center_info_link:hover{
-    color: rgb(255, 136, 0);
-    
+    color: rgb(255, 136, 0); 
+}
+.right_info_item{
+    font-family: sans-serif;
 }
