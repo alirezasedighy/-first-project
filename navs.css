@@ -214,6 +214,7 @@ body{
         font-weight: bold;
         position: relative;
         right: 85px;
+        color: aliceblue;
         top: 20px;
     }
     .slider_text_1 p{
@@ -221,7 +222,7 @@ body{
         text-align: center;
         position: relative;
         right: 10px;
-        color: rgb(231, 228, 228);
+        color: rgb(222, 218, 218);
     }
     .slider_1{
         height: 200px;
