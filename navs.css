@@ -135,6 +135,7 @@ body{
     padding-top: 7px;
     cursor: pointer;
 }
+/*
 .slider_2{
     width: 90vw;
     height: 360px ;
@@ -159,3 +160,70 @@ body{
     color: aliceblue;
     cursor: pointer;
 }
+*/
+@media only screen and (max-width: 900px) {
+    /* nav1 */
+    .nav_brand h3{
+        font-size: 10px;
+        margin-right: 10px;
+        width: 200px;
+    }
+    .nav_link li,a{
+        padding: 2px;
+        font-size: 8px;
+        width: 300px;
+        display: inline;
+        margin-left: 3px;
+    }
+    .nav_link{
+        margin: 0px;
+        margin-bottom: 4px;
+    }
+    .nav{
+        width: 100%;
+        height: 30px;
+    }
+    /* nav2 */
+    .main_nav{
+        margin: 0;
+        margin-top: 15px;
+        margin-right: 10px;
+        font-size: 13px;
+        width: 70px;
+    }
+    .nav_item{
+        font-size: 10px; 
+    }
+    .nav_bar_item {  
+        position: absolute;
+        left: 1px;
+        margin-left: 1px;
+        margin-top: 3px;   
+    }
+    /* Social_icon */
+    .Social_icon{
+      display: none; 
+    }  
+    /* slider show*/
+    .slider_1{
+        margin-left: 4px;
+    }
+    .slider_text_1{
+        width: 500px;
+        font-size: 21px;
+        font-weight: bold;
+        position: relative;
+        right: 85px;
+        top: 20px;
+    }
+    .slider_text_1 p{
+        width: 300px;
+        text-align: center;
+        position: relative;
+        right: 10px;
+        color: rgb(231, 228, 228);
+    }
+    .slider_1{
+        height: 200px;
+    }
+  }
