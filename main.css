@@ -289,3 +289,125 @@
 .right_info_item{
     font-family: sans-serif;
 }
+@media only screen and (max-width: 539px){
+    /*
+    right
+    */
+    .main_content{
+        position: absolute;
+        top: 500px;
+        right: 145px;
+        border-left:none;
+        padding-left: 35px;
+        height: 1000px;
+    }
+    .right_titel{
+        text-align: center;
+        font-size: 15px;
+        width: 150px;
+        padding-bottom: 5px;
+        position: relative;
+        top: -200px;
+        right: -25px;
+    }
+    .right_img_1{
+        position: relative;
+        top: -200px;
+        right: -135px;
+        width: 170px;
+        height: 200px;
+    }
+    .right_img_2{
+        position: relative;
+        top: -420px;
+        right: 40px;
+        margin-right: 10px;
+        width: 170px;
+        height: 200px;
+        margin-top: 20px;
+    }
+    .right_date{
+        display: none;
+    }
+    .bold_titel{
+        position: absolute;
+        top: 60px;
+        font-size: 30px;
+        margin-right: 5px;
+    }
+    .right_description{
+        position: absolute;
+        top: 120px;
+        left: 18px;
+        width: 300px;
+        color: rgba(31, 31, 31, 0.877);
+        text-align: center;
+        width: 300px;
+        padding-bottom: 10px;
+        border-bottom: 2px black solid;
+    }
+    .more_icon_1{
+        display: none;
+    }
+    .right_description p{
+        display: none;
+    }
+    /*
+    center
+    */
+    .center_col{
+        position: absolute;
+        top: none;
+        right: none;
+        margin-left:none;
+        margin-right: none;
+        height: none;
+        width: none;
+        padding-left: none;
+        border-left: none;
+    }
+    .center_col_titel h4{
+        font-size: 20px; 
+        position: absolute;
+        top: 250px;
+        right: -365px;      
+    }
+    .center_col_titel p{
+        position: absolute;
+        text-align: center;
+        top: 290px;
+        right: -495px; 
+        width: 350px;
+    }
+    .center_col_img{
+        width: 380px;
+        height: 240px ;
+        position: absolute;
+        top: 350px;
+        right: -500px;
+    }
+    .center_date{
+        display: none;
+    }
+    .center_description h2{
+        display: none;
+    }
+    .center_description h4{
+        display: none;
+    }
+    .center_description p{
+        display: none;
+    }
+    .more_icon_2{
+        display: none;
+    }
+    .centercol_part_2{
+        position: absolute;
+        top: -50px;
+        right: -505px;
+        text-align: center;
+    }
+    .center_date_2{
+        display: none;
+    }
+}
