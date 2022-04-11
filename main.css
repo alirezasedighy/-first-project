@@ -261,8 +261,7 @@
     font-size: 18px;
     margin-top: 10px;
     list-style-position: inside;
-    list-style-type: circle;
-    
+    list-style-type: circle;  
 }
 .center_info{
     font-size: 22px;
@@ -290,13 +289,18 @@
     font-family: sans-serif;
 }
 @media only screen and (max-width: 539px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     /*
     right
     */
     .main_content{
         position: absolute;
         top: 500px;
-        right: 145px;
+        right: 140px;
         border-left:none;
         padding-left: 35px;
         height: 1000px;
@@ -409,5 +413,95 @@
     }
     .center_date_2{
         display: none;
+    }
+        /*
+        left cloum
+        */
+    .left_col{
+        position: absolute;
+        top: none;
+        right: none;
+        width: none;
+        height: none;
+        margin-left: none;
+        width: none;
+    }
+    .first_titel h1{
+        position: absolute;
+        left: 855px;
+        top: 800px;
+        margin-top: 10px;
+        width: 350px;
+        text-align: center;
+        border-top: 2px black solid;
+        border-bottom: 2px black solid;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .first_titel h4{
+        position: absolute;
+        right: -5000px;
+        display: none;
+    }
+    .first_titel p{
+        display: none;
+    }
+    .person_avatar{
+        margin-top: 35px;
+        margin-right: 15px;
+        position: absolute;
+        top: 600px;
+        left: 1175px;
+    }
+    .left_col_fashion_img{
+        display: none;  
+    }
+    .footer{
+        position: relative;
+        top: 1680px;
+        right: -90px;
+        border: none;
+    }
+    .bottem_footer{
+        text-align: start;
+        margin-right: 20px;
+    }
+    .right_info{
+        font-size: 22px;
+        margin-left: 50px;
+    }
+    .right_info p{
+        width: 100px;
+    }
+    .right_info_item{
+        font-size: 18px;
+        margin-top: 10px;
+        list-style-position: inside;
+        list-style-type: circle;  
+    }
+    .center_info{
+        font-size: 22px;
+        margin-left: 50px;
+        position: relative;
+        top: 200px;
+        right: -260px;
+    }
+    .center_info p{
+        border-bottom: 2px orange solid;
+        width: 100px;
+    }
+    .fotter_link{
+        margin-top: 10px;
+    }
+    .center_info_link{
+        list-style: none;
+        color: black;
+        font-size: 18px;
+        line-height: 40px;
+        transition: all 0.3s ease 40ms;
+        text-decoration:none;
+    }
+    .right_info_item{
+        font-family: sans-serif;
     }
 }
