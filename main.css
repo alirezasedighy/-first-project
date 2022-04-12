@@ -11,7 +11,7 @@
     font-size: 19px;
     font-weight: 200;
     border-bottom: 2px solid black;
-    width: 290px;
+    width: 23vw;
     padding-bottom: 10px;
 }
 .right_img_1{
@@ -22,7 +22,7 @@
     right: 5px;
     width: 280px;
     height: 300px;
-    margin-top: 20px;
+    margin: 10px;
 }
 .right_date{
     position: absolute;
@@ -66,7 +66,7 @@
     right: 5px;
     width: 280px;
     height: 400px;
-    margin-top: 20px;
+    margin: 10px;
 }
 /*center cloum*/
 .center_col{
@@ -294,9 +294,7 @@
         padding: 0;
         box-sizing: border-box;
     }
-    /*
-    right
-    */
+    /*right*/
     .main_content{
         position: absolute;
         top: 500px;
@@ -308,27 +306,21 @@
     .right_titel{
         text-align: center;
         font-size: 15px;
-        width: 150px;
+        width: 90vw;
         padding-bottom: 5px;
         position: relative;
         top: -200px;
-        right: -25px;
+        left: 120px;
     }
     .right_img_1{
-        position: relative;
-        top: -200px;
-        right: -135px;
-        width: 170px;
+        position:  absolute;
+        top: -170px;
+        right: -14vw;
+        width: 52vw;
         height: 200px;
     }
     .right_img_2{
-        position: relative;
-        top: -420px;
-        right: 40px;
-        margin-right: 10px;
-        width: 170px;
-        height: 200px;
-        margin-top: 20px;
+       display: none;
     }
     .right_date{
         display: none;
@@ -336,17 +328,20 @@
     .bold_titel{
         position: absolute;
         top: 60px;
+        left: 380px;
         font-size: 30px;
-        margin-right: 5px;
+        margin-right: 10px;
+        width: 30vw;
+        color: orange;
     }
     .right_description{
         position: absolute;
         top: 120px;
-        left: 18px;
+        left: 160px;
         width: 300px;
         color: rgba(31, 31, 31, 0.877);
         text-align: center;
-        width: 300px;
+        width: 90vw;
         padding-bottom: 10px;
         border-bottom: 2px black solid;
     }
@@ -356,9 +351,7 @@
     .right_description p{
         display: none;
     }
-    /*
-    center
-    */
+    /*center*/
     .center_col{
         position: absolute;
         top: none;
@@ -374,21 +367,23 @@
         font-size: 20px; 
         position: absolute;
         top: 250px;
-        right: -365px;      
+        right: -360px;
+        width: 45vw;      
     }
     .center_col_titel p{
         position: absolute;
         text-align: center;
         top: 290px;
-        right: -495px; 
-        width: 350px;
+        right: -485px; 
+        width: 90vw;
+        padding-bottom: 10px;
     }
     .center_col_img{
-        width: 380px;
+        width: 90vw;
         height: 240px ;
         position: absolute;
         top: 350px;
-        right: -500px;
+        right: -480px;
     }
     .center_date{
         display: none;
@@ -410,13 +405,12 @@
         top: -50px;
         right: -505px;
         text-align: center;
+        width: 20vw;
     }
     .center_date_2{
         display: none;
     }
-        /*
-        left cloum
-        */
+    /*left cloum*/
     .left_col{
         position: absolute;
         top: none;
@@ -428,10 +422,10 @@
     }
     .first_titel h1{
         position: absolute;
-        left: 855px;
-        top: 800px;
+        left: 875px;
+        top: 850px;
         margin-top: 10px;
-        width: 350px;
+        width: 50vw;
         text-align: center;
         border-top: 2px black solid;
         border-bottom: 2px black solid;
@@ -439,8 +433,6 @@
         padding-top: 20px;
     }
     .first_titel h4{
-        position: absolute;
-        right: -5000px;
         display: none;
     }
     .first_titel p{
@@ -471,7 +463,7 @@
         margin-left: 50px;
     }
     .right_info p{
-        width: 100px;
+        width: 20vw;
     }
     .right_info_item{
         font-size: 18px;
@@ -488,7 +480,7 @@
     }
     .center_info p{
         border-bottom: 2px orange solid;
-        width: 100px;
+        width: 20vw;
     }
     .fotter_link{
         margin-top: 10px;
