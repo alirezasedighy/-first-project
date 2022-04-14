@@ -288,7 +288,7 @@
 .right_info_item{
     font-family: sans-serif;
 }
-@media only screen and (max-width: 539px){
+@media only screen and (max-width: 500px){
     *{
         margin: 0;
         padding: 0;
@@ -337,7 +337,7 @@
     .right_description{
         position: absolute;
         top: 120px;
-        left: 160px;
+        left: 155px;
         width: 300px;
         color: rgba(31, 31, 31, 0.877);
         text-align: center;
@@ -374,7 +374,7 @@
         position: absolute;
         text-align: center;
         top: 290px;
-        right: -485px; 
+        right: -493px; 
         width: 90vw;
         padding-bottom: 10px;
     }
@@ -481,6 +481,7 @@
     .center_info p{
         border-bottom: 2px orange solid;
         width: 20vw;
+        padding-top: 25px;
     }
     .fotter_link{
         margin-top: 10px;
@@ -489,7 +490,7 @@
         list-style: none;
         color: black;
         font-size: 18px;
-        line-height: 40px;
+        line-height: 30px;
         transition: all 0.3s ease 40ms;
         text-decoration:none;
     }
